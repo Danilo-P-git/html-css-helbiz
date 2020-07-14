@@ -190,10 +190,9 @@ h1 {
   height: 800px;
   padding-right: 20px;
 }
-.box-2.col-lg-12 {
-  background-image: linear-gradient(#252f38, #405569), url("../img/iphone-half.png");
+.box-2 .col-lg-12 {
+  background-image: linear-gradient(#252f38, #405569);
   height: 100%;
-  background-size: cover;
 }
 .box-3 {
 
