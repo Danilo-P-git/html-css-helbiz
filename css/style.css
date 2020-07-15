@@ -127,7 +127,8 @@ h1 {
   font-size: 20px;
 }
 .shop-display .container .col-lg-6 .col-lg-12 .showcase {
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
 }
 /* Vetrina */
 
@@ -220,6 +221,11 @@ h1 {
   background-position: center;
 }
 @media screen and (max-width: 768px) {
+  .upper {
+    margin-left: 20px;
+    width: 94%;
+
+  }
   .box-2 {
     padding-left: 20px;
     padding-right: 20px;
